@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #222;
+  /* width: 130rem; */
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.foodie {
+  width: 104rem;
+  padding: 0;
+  max-height: 70rem;
+  margin-top: 1rem;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.09);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.8rem;
+  margin: 0 2rem 2rem 2rem;
+  max-width: 130rem;
+}
+
+.icon {
+  color: #eb0202;
+}
+
+.logo-text {
+  color: #222;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav {
+  margin-right: 1rem;
+  justify-self: left;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.nav-item:link,
+.nav-item:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.nav-item:hover,
+.nav-item:active {
+  color: #eb0202;
+}
+
+.nav-red:link,
+.nav-red:visited {
+  color: #eb0202;
+}
+
+section {
+  padding: 3.2rem 0 0 0;
+  margin: 2rem;
+  width: 100rem;
+}
+
+.gray1 {
+  position: absolute;
+  top: -40%;
+  left: -10%;
+
+  width: 12rem;
+  height: 12rem;
+  filter: brightness(0);
+  opacity: 8%;
+}
+
+.hero {
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.hero-text {
+  position: relative;
+}
+
+.hero-text p {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.you {
+  color: #eb0202;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.head1 {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #111;
+  letter-spacing: -0.01px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.6rem 3.2rem;
+  border-radius: 5px;
+
+  transition: all 0.3s;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  background-color: #eb0202;
+  color: white;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: #a50101;
+}
+
+.food-img {
+  height: 40rem;
+  border-radius: 9px;
+  justify-self: left;
+}
+
+.box-red {
+  width: 55rem;
+  height: 15rem;
+  background-color: #eb0202;
+  margin: 0;
+  border-radius: 3px;
+  position: relative;
+}
+
+.gray2 {
+  position: absolute;
+  top: -70%;
+  right: -27%;
+  width: 19rem;
+  filter: brightness(0);
+  opacity: 8%;
+}
